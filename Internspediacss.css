@@ -4,17 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Ubuntu', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50vh;
-    overflow: hidden;
-    margin: 0;
-
-}
-
 .bg {
     background: url(pexelsImg.jpeg) no-repeat center center/cover;
     position: absolute;
@@ -32,11 +21,13 @@ body {
 
 }
 
+
 .loading-text {
     font-family: 500px;
     color:yellow;
     font-size: 150px;
     font-weight: 500;
     text-align: center;
+    margin-top: 25vh;
 
 }
