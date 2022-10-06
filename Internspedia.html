@@ -9,9 +9,55 @@
     <link rel="stylesheet" href="Internspediacss.css">
     <script src="Internspediajs.js" defer></script>
     <title>Blurry loading</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
 </head>
 <body>
+
+
+    <nav id="navibar" class="navbar navbar-expand-lg" style="background-color: #ffffff;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Internspedia</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active fw-semibold" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-semibold" href="#">Jobs</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active fw-semibold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Internships
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Location</a></li>
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Companies</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-semibold">Training</a>
+              </li>
+            </ul>
+            
+          </div>
+          <form class="d-grid gap-2 d-md-block" role="signin">
+            <a href="#" class="btn btn-primary ">Login</a>
+            <a href="#" class="btn btn-primary ">Sign Up</a>
+        </form>
+        </div>
+    </nav>
     <div class="bg" ></div>
     <div class="loading-text">0%</div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    
     </body>
 </html>
